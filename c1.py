@@ -10,3 +10,5 @@ class Mascota:
         pass
     def getRaza(self):
         pass
+    def mostrarTodo(self):
+        pass
