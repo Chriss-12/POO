@@ -3,12 +3,13 @@ class Mascota:
         self.nombre = 'neron'
         self.raza = 'calle'
     def mostrar(self):
-        pass
+        print(f'nombre:{self.nombre}')
+        print(f'raza:{self.raza}')
     def leer(self):
-        pass
+        self.nombre = str(input('ingrese una nombre:'))
+        self.raza = str(input('ingrese una raza:'))
     def getNombre(self):
-        pass
+        return self.nombre
     def getRaza(self):
-        pass
-    def mostrarTodo(self):
-        pass
+        return self.raza
+        
