@@ -4,3 +4,9 @@ class Mascota:
         self.raza = 'calle'
     def mostrar(self):
         pass
+    def leer(self):
+        pass
+    def getNombre(self):
+        pass
+    def getRaza(self):
+        pass
